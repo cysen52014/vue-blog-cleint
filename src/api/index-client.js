@@ -57,7 +57,7 @@ export default {
             }
         }).then(checkStatus).then(checkCode)
     },
-    get(url, params) {
+    get(url, params) { console.log(config.api + url)
         return axios({
             method: 'get',
             url: config.api + url,

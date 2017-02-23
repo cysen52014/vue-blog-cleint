@@ -1,7 +1,7 @@
 <template>
     <nav class="global-nav">
         <div v-if="backend" class="wrap clearfix">
-            <div class="left-part"><a href="/" exact class="logo-link"><i class="icon icon-nav-logo"></i><span class="hidden">M.M.F 小屋</span></a>
+            <div class="left-part"><a href="/" exact class="logo-link"><i class="icon icon-nav-logo"></i><span class="hidden">cysen 小屋</span></a>
                 <div class="main-nav">
                     <a href="/" class="nav-link"><i class="icon icon-nav-home"></i><span class="text">首页</span></a>
                     <a href="/trending/visit" class="nav-link"><i class="icon icon-nav-explore"></i><span class="text">热门</span></a>
@@ -50,3 +50,6 @@ export default {
     }
 }
 </script>
+<style>
+    .global-nav .nav-link{ padding: 0 20px; }
+</style>
